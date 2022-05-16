@@ -1,0 +1,89 @@
+body {
+  background-color: #00000001;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #aaa;
+  text-align: center;
+  -webkit-app-region: drag;
+}
+
+.kasa {
+  width: 20em;
+  height: 36em;
+  border: 0.1em solid;
+  border-radius: 4.5em;
+  color: rgb(68, 68, 68);
+  padding: 15px 32px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+  background: var(--siyah);
+  transition: background var(--gecisSuresi);
+
+  box-shadow: 0 0.2em 0.1em 0.15em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+}
+
+#isimEkrani {
+  border-radius: 15px;
+  color: #000000;
+  height:50px;
+  width:320px;
+}
+
+.kapaktaki-hoparlor-deligi {
+  position: relative;
+  width: 16em;
+  height: 16em;
+  border-radius: 50%;
+
+  background: var(--siyah);
+  transition: background var(--gecisSuresi);
+
+  margin: 4em auto;
+}
+
+.hoparlor {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url(assetler/hoparlor.png);
+  background-size: 100% 100%;
+}
+
+.dugme {
+  width: 6em;
+  height: 6em;
+  border: 0em solid;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+
+  background: var(--siyah);
+  transition: background var(--gecisSuresi);
+
+  box-shadow: 0 0.2em 0.1em 0.05em rgba(255, 255, 255, 0.2) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.3) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+}
+
+.dugme:active {
+  border: 0.02em solid;
+}
+
+:root {
+  --gecisSuresi: 3.1s;
+
+  --kirmizi: #aa2424;
+  --turuncu: #bb6129;
+  --mavi: #1c9bb8;
+  --pembe: #af408a;
+  --yesil: #4e8535;
+  --beyaz: #b6b6b6;
+  --siyah: #151515;
+}
