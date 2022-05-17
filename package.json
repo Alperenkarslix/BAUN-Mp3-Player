@@ -1,7 +1,6 @@
 {
   "name": "baun-mp3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -12,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^18.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alperenkarslix/BAUNmp3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alperenkarslix/BAUNmp3/issues"
+  },
+  "homepage": "https://github.com/Alperenkarslix/BAUNmp3#readme",
+  "description": ""
 }
