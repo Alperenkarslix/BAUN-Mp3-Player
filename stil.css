@@ -4,7 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #aaa;
   text-align: center;
-  
+  -webkit-app-region:drag;
 }
 
 .kasa {
@@ -25,7 +25,7 @@ body {
   transition: background var(--gecisSuresi);
 
   box-shadow: 0 0.2em 0.1em 0.15em rgba(255, 255, 255, 0.1) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.5) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
-  -webkit-app-region: drag;
+ 
 }
 
 #isimEkrani {
@@ -45,6 +45,7 @@ body {
   transition: background var(--gecisSuresi);
 
   margin: 4em auto;
+
 }
 
 .hoparlor {
@@ -54,6 +55,7 @@ body {
   border-radius: 50%;
   background-image: url(assetler/hoparlor.png);
   background-size: 100% 100%;
+ 
 }
 
 .dugme {
@@ -71,6 +73,7 @@ body {
   transition: background var(--gecisSuresi);
 
   box-shadow: 0 0.2em 0.1em 0.05em rgba(255, 255, 255, 0.2) inset, 0 -0.2em 0.1em 0.05em rgba(0, 0, 0, 0.3) inset, 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+  -webkit-app-region:no-drag;
 }
 
 .dugme:active {
